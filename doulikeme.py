@@ -5,9 +5,9 @@ if a in('yes', 'yea', 'yeah', 'yes my love', 'yes my baby'):
     b = input('let\'s talk')
     c = input('What\'s your fav colour fadi?')
     if c in('blue', 'green'):
-    print('SO IS MINE YAY')
+         print('SO IS MINE YAY')
     else:
-    print('Oh you never told me this before')
+         print('Oh you never told me this before')
     d = print('I love you so much')
 
 else:
