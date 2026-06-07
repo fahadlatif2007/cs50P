@@ -8,7 +8,7 @@ if a in('yes', 'yea', 'yeah', 'yes my love', 'yes my baby'):
          print('SO IS MINE YAY')
     else:
          print('Oh you never told me this before')
-    d = print('I love you so much')
+    print('I love you so much')
 
 else:
     print('damn.. okay ig.')
