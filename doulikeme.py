@@ -1,3 +1,5 @@
 # do you like me?
-input('do you like me fadi?')
-print('i like you aswell)
+a = input('do you like me fadi?')
+
+if a == 'yes':
+print('i like you aswell')
