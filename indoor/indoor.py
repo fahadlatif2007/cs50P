@@ -1,2 +1,3 @@
 # Indoor
-input
+x = input('').lower()
+print(x)
