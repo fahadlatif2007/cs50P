@@ -1,5 +1,6 @@
 #converts :) to 🙂 and :( to 🙁
 convert(x)
-
-x = input()replace(':)', '🙂').replace(':(', '🙁')
-print(x)
+def convert(x):
+    return x.replace(':)', '🙂').replace(':(', '🙁`')
+x = input()
+print(convert(x))
