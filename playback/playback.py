@@ -1,0 +1,3 @@
+#replace space with ...
+x = inputx.replace(' ', '...')
+print(x)
