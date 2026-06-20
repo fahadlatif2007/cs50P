@@ -4,3 +4,4 @@ def convert(x):
     return x.replace(':)', '🙂').replace(':(', '🙁`')
 x = input()
 print(convert(x))
+main()
