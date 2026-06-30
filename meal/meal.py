@@ -6,9 +6,8 @@ def main():
 
 def convert(time):
     hours, minutes = time.split(":")
-    int(hours) + int(minutes)/60
+    int(hours) + int(minutes) / 60
     return
-
 
 if __name__ == "__main__":
     main()
