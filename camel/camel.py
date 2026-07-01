@@ -1,15 +1,15 @@
 #camelCase
 #ask user for camelCase
-x = input('camelCase: ')
 
 def main():
-
+    x = input('camelCase: ')
     for i in x:
 
         if i.isupper():
-           print('_' + i.lower(), end='')
+            print('snake_case: ' + '_' + i.lower(), end='')
 
         else:
-            print(i, end='')
+            print('snake_case: ' + i, end='')
 
-main()
+if __name__ == "__main__":
+    main()
