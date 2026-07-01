@@ -8,8 +8,8 @@ def main():
         print(i, end='')
 
         if i.isupper():
-            i=x.replace(i, '_' + i.lower())
+            print('_' + i.lower(), end='')
         else:
-            print(i)
+            print(i, end='')
 
 main()
