@@ -7,11 +7,9 @@ def main():
     for i in x:
 
         if i.isupper():
-           i=('_' + i.lower())
-           print(i, end='')
+           print('_' + i.lower(), end='')
 
         else:
-            i=(i)
-    print('snake_case: ' + i)
+            print(i, end='')
 
 main()
