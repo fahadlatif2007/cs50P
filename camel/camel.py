@@ -10,6 +10,6 @@ def main():
         if i.isupper():
             i=x.replace(i, '_' + i.lower())
         else:
-            print(i, end='')
+            print(i)
 
 main()
