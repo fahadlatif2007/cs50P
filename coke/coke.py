@@ -1,2 +1,2 @@
 amount_due = 50
-while amount
+while amount_due > 0:
