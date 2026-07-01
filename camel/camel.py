@@ -6,5 +6,5 @@ def main():
         print(i)
     if i.isupper():
         return x.replace(i, '_' + i.lower())
-    
+
 main()
