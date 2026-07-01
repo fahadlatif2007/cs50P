@@ -3,13 +3,16 @@
 
 def main():
     x = input('camelCase: ')
+    
+    print("snake_case: ", end="")
+
     for i in x:
 
         if i.isupper():
-            print('snake_case: ' + '_' + i.lower(), end='')
+            print('_' + i.lower(), end='')
 
         else:
-            print('snake_case: ' + i, end='')
+            print(i, end='')
 
 if __name__ == "__main__":
     main()
