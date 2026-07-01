@@ -3,7 +3,7 @@
 
 def main():
     x = input('camelCase: ')
-    
+
     print("snake_case: ", end="")
 
     for i in x:
@@ -13,6 +13,7 @@ def main():
 
         else:
             print(i, end='')
+    print('')
 
 if __name__ == "__main__":
     main()
