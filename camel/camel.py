@@ -5,6 +5,6 @@ def main():
     for i in x:
         print(i)
     if i.isupper():
-        replace.(i, '_' + i.lower())
-
+        return x.replace(i, '_' + i.lower())
+    
 main()
