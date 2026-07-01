@@ -11,6 +11,7 @@ def main():
            print(i, end='')
 
         else:
-            print(i, end='')
+            i=(i)
+    print('snake_case: ' + i)
 
 main()
