@@ -5,10 +5,11 @@ x = input('camelCase: ')
 def main():
 
     for i in x:
-        print(i, end='')
 
         if i.isupper():
-            print('_' + i.lower(), end='')
+           i=('_' + i.lower())
+           print(i, end='')
+
         else:
             print(i, end='')
 
