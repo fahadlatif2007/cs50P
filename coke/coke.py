@@ -1,7 +1,7 @@
 amount_due = 50
 while amount_due > 0:
-    payment = int(input("How much would you like to pay? "))
-    amount_due -= payment
+    x = int(input("Insert coin:"))
+    amount_due -= x
     if amount_due > 0:
         print(f"Amount due: {amount_due}")
     elif amount_due < 0:
