@@ -14,7 +14,8 @@ def is_valid(s):
         return False
     if len(s) > 2 and s[2:].isdigit() and s[2] == '0':
         return False
-    if s.endswith(digit)
+    if s[5].isdigit() and s[2:].isalpha():
+        return False
     if s.endswith(' ') or s.startswith(' '):
         return False
 
