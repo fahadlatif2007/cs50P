@@ -12,6 +12,7 @@ def is_valid(s):
         return False
     if not s.isalnum():
         return False
+    
     if len(s) > 2 and s[2:].isdigit() and s[2] == '0':
         return False
 
