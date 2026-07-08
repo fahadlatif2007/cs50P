@@ -11,10 +11,13 @@ def is_valid(s):
         return False
     if not s.isalnum():
         return False
-
-    if len(s) > 2 and s[2:].isdigit() and s[2] == '0':
-        return False
-
+    seen_number = False
+    for i in s:
+        if i.isdigit():
+           seen_number = True
+                if i == "0":
+                    return False
+        elif seen_number:
+            return False
     return True
-
 main()
