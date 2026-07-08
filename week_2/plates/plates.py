@@ -4,7 +4,6 @@ def main():
         print("Valid")
     else:
         print("Invalid")
-
 def is_valid(s):
     if len(s) < 2 or len(s) > 6:
         return False
@@ -12,7 +11,7 @@ def is_valid(s):
         return False
     if not s.isalnum():
         return False
-    
+
     if len(s) > 2 and s[2:].isdigit() and s[2] == '0':
         return False
 
