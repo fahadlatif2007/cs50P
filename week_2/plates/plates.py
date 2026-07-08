@@ -14,8 +14,8 @@ def is_valid(s):
     seen_number = False
     for i in s:
         if i.isdigit():
-           seen_number = True
-                if i == "0":
+            seen_number = True
+            if i == "0":
                     return False
         elif seen_number:
             return False
