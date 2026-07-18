@@ -1,7 +1,7 @@
 def main():
     x, y = get_fraction('Fraction: ').strip().split('/')
-    x = float(x)
-    y = float(y)
+    x = int(x)
+    y = int(y)
     z = (x / y)*100
     print(f'{int(z)}%')
     if z>= 99:
@@ -14,8 +14,8 @@ def get_fraction(prompt):
         if prompt == 'Fraction: ':
             try:
                 x, y = input(prompt).strip().split('/')
-                x = float(x)
-                y = float(y)
+                x = int(x)
+                y = int(y)
                 if y == 0:
                     raise ValueError
                 if x > y:
