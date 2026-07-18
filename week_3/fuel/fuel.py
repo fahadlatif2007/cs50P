@@ -13,7 +13,7 @@ def get_fraction(prompt):
     while True:
         try:
             return input(prompt)
-        except (ValueError, ZeroDivisionError):
+        except ValueError:
             pass
 
 main()
