@@ -1,5 +1,4 @@
-x = int(input('Fraction: ').strip())
-y = int(input('Fraction: ').strip())
+x, y, z = int(input('Fraction: ').strip())
 z = x / y
 print(z)
 
