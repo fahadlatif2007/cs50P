@@ -1,5 +1,5 @@
 def main():
-    x, y = get_fraction('Fraction: ').strip().split('/')
+    x, y = get_fraction('Fraction: ')
     x = int(x)
     y = int(y)
     z = (x / y)*100
