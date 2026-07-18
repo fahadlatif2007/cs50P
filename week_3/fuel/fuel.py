@@ -22,7 +22,8 @@ def get_fraction(prompt):
                     raise ZeroDivisionError
                 if x > y:
                     raise ValueError
-                if x == -
+                if x < 0:
+                    raise ValueError
                 return (x, y)
             except (ValueError, ZeroDivisionError):
                 pass
