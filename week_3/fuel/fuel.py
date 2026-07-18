@@ -1,9 +1,9 @@
 
 
 
-x, y, z = input('Fraction: ').strip().split('/')
+x, y = input('Fraction: ').strip().split('/')
 x = float(x)
-z = float(z)
+y = float(y)
 z = x / y
 print(z)
 
