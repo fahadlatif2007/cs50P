@@ -11,6 +11,7 @@ def main():
 
 def get_fraction(prompt):
     while True:
+        if 
         try:
             return input(prompt)
         except ValueError:
