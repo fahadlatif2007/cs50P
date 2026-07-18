@@ -6,9 +6,10 @@ def main():
     z = round(z)
     if z>= 99:
         print('F')
-    if z<= 1:
+    elif z<= 1:
         print('E')
-    print(f'{int(z)}%')
+    else:
+        print(f'{z}%')
 
 def get_fraction(prompt):
     while True:
