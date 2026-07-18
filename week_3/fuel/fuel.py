@@ -3,6 +3,7 @@ def main():
     x = int(x)
     y = int(y)
     z = (x / y)*100
+    z = round(z)
     if z>= 99:
         print('F')
     if z<= 1:
