@@ -11,10 +11,17 @@ def main():
 
 def get_fraction(prompt):
     while True:
-        if 
-        try:
-            return input(prompt)
-        except ValueError:
-            pass
-
+        if prompt == 'Fraction: ':
+            try:
+                x, y = input(prompt).strip().split('/')
+                x = float(x)
+                y = float(y)
+                if y == 0:
+                    raise ValueError
+                if x > y:
+                    raise ValueError
+                return f'{x}/{y}'
+            except ValueError:
+                pass
+    
 main()
