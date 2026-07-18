@@ -3,11 +3,11 @@ def main():
     x = int(x)
     y = int(y)
     z = (x / y)*100
-    print(f'{int(z)}%')
+    
     if z>= 99:
-        print('Full')
+        print('F')
     if z<= 1:
-        print('Empty')
+        print('E')
 
 def get_fraction(prompt):
     while True:
