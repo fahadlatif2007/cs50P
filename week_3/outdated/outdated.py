@@ -12,38 +12,28 @@ months = [
     "November",
     "December"
 ]
-
 while True:
     try:
         date = input("Date: ").strip()
-
         if "/" in date:
             month, day, year = date.split("/")
             month = int(month)
             day = int(day)
             year = int(year)
-
         elif "," in date:
             month, day, year = date.split()
-
             if month not in months:
                 raise ValueError
-
             month = months.index(month) + 1
             day = int(day.strip(","))
             year = int(year)
-
         else:
             raise ValueError
-
         if month < 1 or month > 12:
             raise ValueError
-
         if day < 1 or day > 31:
             raise ValueError
-
         print(f"{year:04}-{month:02}-{day:02}")
         break
-
     except ValueError:
         pass
