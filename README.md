@@ -25,4 +25,4 @@ This repo reflects coursework in progress, not production code. Solutions are wr
 
 ## Connect
 
-- LinkedIn: [Mohammad Fahad](https://www.linkedin.com/in/fahad-latif-b7b72938a))
+- LinkedIn: [Mohammad Fahad](https://www.linkedin.com/in/fahad-latif-b7b72938a)
